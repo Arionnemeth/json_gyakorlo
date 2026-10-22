@@ -9,8 +9,8 @@ async function init(){
     for(const auto of adatok){
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td>${auto.marka}</td>
-            <td>${auto.tipus}</td>
+            <td>${auto.modell}</td>
+            <td>${auto.szin}</td>
             <td>${auto.evjarat}</td>
         `;
         table.appendChild(row);
