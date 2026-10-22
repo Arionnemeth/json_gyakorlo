@@ -13,8 +13,24 @@ async function init(){
             <td>${auto.szin}</td>
             <td>${auto.evjarat}</td>
         `;
+        if (auto.szin == "fekete"){
+        }
         table.appendChild(row);
+
+        if (auto.szin == "fekete"){
+            row.style.backgroundColor = "black";
+            row.style.color = "white";
+        }
+        else if (auto.szin == "fehér"){
+            row.style.backgroundColor = "white";
+        }
+        else if (auto.szin == "piros"){
+            row.style.backgroundColor = "red";
+            row.style.color = "white";
+        }
     }
 
+    
 }
 init();
+
