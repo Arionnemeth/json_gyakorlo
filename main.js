@@ -12,7 +12,6 @@ async function init(){
             <td>${auto.marka}</td>
             <td>${auto.tipus}</td>
             <td>${auto.evjarat}</td>
-            <td>${auto.ar}</td>
         `;
         table.appendChild(row);
     }
